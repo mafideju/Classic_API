@@ -1,0 +1,9 @@
+#spring
+#  datasource
+#    username=mafideju
+#    password=mancada60
+#    driver-class-name=com.mysql.cj.jdbc.Driver
+#    url=jdbc:mysql://localhost:3306/api_kargo?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&zeroDateTimeBehavior=convertToNull
+#  jpa
+#    hibernate
+#      ddl-auto=update

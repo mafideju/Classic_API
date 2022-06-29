@@ -1,0 +1,71 @@
+package org.mafideju.API_Kargopolov.model.response;
+
+import org.springframework.hateoas.RepresentationModel;
+
+public class AddressResponseModel extends RepresentationModel<AddressResponseModel> {
+
+    private String addressId;
+    private String streetName;
+    private Integer number;
+    private String city;
+    private String country;
+    private String cep;
+    private String type;
+
+
+    public String getAddressId() {
+        return addressId;
+    }
+
+    public void setAddressId(String addressId) {
+        this.addressId = addressId;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getStreetName() {
+        return streetName;
+    }
+
+    public void setStreetName(String streetName) {
+        this.streetName = streetName;
+    }
+
+    public Integer getNumber() {
+        return number;
+    }
+
+    public void setNumber(Integer number) {
+        this.number = number;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
+    public String getCep() {
+        return cep;
+    }
+
+    public void setCep(String cep) {
+        this.cep = cep;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+}
